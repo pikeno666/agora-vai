@@ -16,3 +16,5 @@ $ReportEmail.Attachments.Add($attachment)
 $SMTPInfo.Send($ReportEmail)
 }
 write-host "Mail Sent Successfully"
+
+}
